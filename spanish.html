@@ -191,7 +191,7 @@
                     <img src="https://bucket.mlcdn.com/a/3336/3336910/images/fa62e06dd2b6ed2d1d9e77e5dd944bef2904d5d1.png" alt="Logo" class="w-10 h-10 rounded-lg flex-shrink-0">
                     <div class="overflow-hidden">
                         <h1 class="text-xl font-bold whitespace-nowrap">EasyListings</h1>
-                        <p class="text-xs text-[var(--text-secondary)] whitespace-nowrap">Panel de Administrador</p>
+                        <p class="text-xs text-[var(--text-secondary)] whitespace-nowrap" data-lang-key="adminPanel">Panel de Administrador</p>
                     </div>
                 </a>
                 <button id="sidebar-close-btn" class="p-2 rounded-md hover:bg-[var(--primary-light)] md:hidden">
@@ -201,21 +201,21 @@
             
             <!-- Navigation -->
             <nav id="nav-links" class="flex-1 px-2 py-4 space-y-2 overflow-y-auto">
-                <a href="#" data-page="dashboard" class="nav-link flex items-center p-3 rounded-lg"><i data-lucide="layout-dashboard" class="w-6 h-6 mr-4 flex-shrink-0"></i><span>Tablero</span></a>
-                <a href="#" data-page="users" class="nav-link flex items-center p-3 rounded-lg"><i data-lucide="users" class="w-6 h-6 mr-4 flex-shrink-0"></i><span>Cuentas de Usuario</span></a>
-                <a href="#" data-page="templates" class="nav-link flex items-center p-3 rounded-lg"><i data-lucide="message-square-text" class="w-6 h-6 mr-4 flex-shrink-0"></i><span>Plantillas de WhatsApp</span></a>
-                <a href="#" data-page="directorio" data-url="https://bebell-digital-solutions.github.io/easylistings-agency" data-title="Directorio Easy Listings" class="nav-link flex items-center p-3 rounded-lg"><i data-lucide="map-pin-pen" class="w-6 h-6 mr-4 flex-shrink-0"></i><span>Directorio Principal</span></a>
+                <a href="#" data-page="dashboard" class="nav-link flex items-center p-3 rounded-lg"><i data-lucide="layout-dashboard" class="w-6 h-6 mr-4 flex-shrink-0"></i><span data-lang-key="dashboard">Tablero</span></a>
+                <a href="#" data-page="users" class="nav-link flex items-center p-3 rounded-lg"><i data-lucide="users" class="w-6 h-6 mr-4 flex-shrink-0"></i><span data-lang-key="userAccounts">Cuentas de Usuario</span></a>
+                <a href="#" data-page="templates" class="nav-link flex items-center p-3 rounded-lg"><i data-lucide="message-square-text" class="w-6 h-6 mr-4 flex-shrink-0"></i><span data-lang-key="whatsappTemplates">Plantillas de WhatsApp</span></a>
+                <a href="#" data-page="directorio" class="nav-link flex items-center p-3 rounded-lg"><i data-lucide="map-pin-pen" class="w-6 h-6 mr-4 flex-shrink-0"></i><span data-lang-key="mainDirectory">Directorio Principal</span></a>
                 
-                <a href="#" data-page="settings" class="nav-link flex items-center p-3 rounded-lg"><i data-lucide="settings" class="w-6 h-6 mr-4 flex-shrink-0"></i><span>Configuración</span></a>
+                <a href="#" data-page="settings" class="nav-link flex items-center p-3 rounded-lg"><i data-lucide="settings" class="w-6 h-6 mr-4 flex-shrink-0"></i><span data-lang-key="settings">Configuración</span></a>
                 <hr class="my-2 border-[var(--border-color)]">
-                <a href="#" data-page="whatsapp-generator" data-url="https://bebell-digital-solutions.github.io/easylistings-agency/spanish/whatsapp-link-generator" data-title="Generador de Enlaces de WhatsApp" class="nav-link flex items-center p-3 rounded-lg"><i data-lucide="link-2" class="w-6 h-6 mr-4 flex-shrink-0"></i><span>Enlaces de WhatsApp</span></a>
-                <a href="#" data-page="spreadsheet-id" data-url="https://bebell-digital-solutions.github.io/easylistings-agency/spanish/spreadsheet-id" data-title="Buscador de ID de Hoja de Cálculo" class="nav-link flex items-center p-3 rounded-lg"><i data-lucide="file-spreadsheet" class="w-6 h-6 mr-4 flex-shrink-0"></i><span>Spreadsheet ID</span></a>
-                <a href="#" data-page="email-signature" data-url="https://bebell-digital-solutions.github.io/easylistings-agency/spanish/easy-signature" data-title="Generador de Firmas de Correo" class="nav-link flex items-center p-3 rounded-lg"><i data-lucide="signature" class="w-6 h-6 mr-4 flex-shrink-0"></i><span>Firma de Correo</span></a>
+                <a href="#" data-page="whatsapp-generator" class="nav-link flex items-center p-3 rounded-lg"><i data-lucide="link-2" class="w-6 h-6 mr-4 flex-shrink-0"></i><span data-lang-key="whatsappLinks">Enlaces de WhatsApp</span></a>
+                <a href="#" data-page="spreadsheet-id" class="nav-link flex items-center p-3 rounded-lg"><i data-lucide="file-spreadsheet" class="w-6 h-6 mr-4 flex-shrink-0"></i><span data-lang-key="spreadsheetId">Spreadsheet ID</span></a>
+                <a href="#" data-page="email-signature" class="nav-link flex items-center p-3 rounded-lg"><i data-lucide="signature" class="w-6 h-6 mr-4 flex-shrink-0"></i><span data-lang-key="emailSignature">Firma de Correo</span></a>
                 
                 <div id="custom-nav-links-container" class="space-y-2"></div>
 
                 <button id="add-new-link-btn" class="w-full flex items-center p-3 mt-2 text-sm text-[var(--text-secondary)] rounded-lg hover:bg-[var(--primary-light)]">
-                    <i data-lucide="square-plus" class="w-6 h-6 mr-4 flex-shrink-0"></i><span>Añadir Nuevo Recurso</span>
+                    <i data-lucide="square-plus" class="w-6 h-6 mr-4 flex-shrink-0"></i><span data-lang-key="addNewResource">Añadir Nuevo Recurso</span>
                 </button>
             </nav>
 
@@ -225,7 +225,7 @@
                 <div id="admin-profile-section" class="flex items-center p-3 rounded-lg gap-3 cursor-pointer hover:bg-[var(--primary-light)]">
                     <img id="admin-avatar" src="https://bucket.mlcdn.com/a/3336/3336910/images/720acb42aae5c4c7657fe94291a91807c55c356a.png" alt="Admin" class="w-10 h-10 rounded-full flex-shrink-0" />
                     <div class="overflow-hidden">
-                        <p id="admin-user-name" class="font-semibold whitespace-nowrap">Administrador</p>
+                        <p id="admin-user-name" class="font-semibold whitespace-nowrap">Admin</p>
                     </div>
 
 
@@ -235,12 +235,12 @@
                 </div>
 
                 <button id="theme-toggle" class="w-full flex items-center p-3 rounded-lg hover:bg-[var(--primary-light)]">
-                    <i id="theme-icon" data-lucide="moon" class="w-6 h-6 mr-4 flex-shrink-0"></i><span>Cambiar Tema</span>
+                    <i id="theme-icon" data-lucide="moon" class="w-6 h-6 mr-4 flex-shrink-0"></i><span data-lang-key="toggleTheme">Cambiar Tema</span>
                 </button>
 
-                <a href="https://bebell-digital-solutions.github.io/easylistings-agency/english/dashboard-v06" data-page="translate" class="nav-link flex items-center p-3 rounded-lg">
-                    <i data-lucide="languages" class="w-6 h-6 mr-4 flex-shrink-0"></i><span>Traducir Panel</span>
-                </a>
+                <button id="translate-btn" class="w-full flex items-center p-3 rounded-lg hover:bg-[var(--primary-light)]">
+                    <i data-lucide="languages" class="w-6 h-6 mr-4 flex-shrink-0"></i><span data-lang-key="translatePanel">Traducir Panel</span>
+                </button>
             </div>
         </aside>
 
@@ -251,7 +251,7 @@
                 <button id="sidebar-open-btn" class="p-2 rounded-md hover:bg-[var(--primary-light)]">
                     <i data-lucide="menu" class="w-6 h-6"></i>
                 </button>
-                <div class="text-sm font-bold" id="mobile-page-title">Tablero</div>
+                <div class="text-sm font-bold" id="mobile-page-title" data-lang-key="dashboard">Tablero</div>
                 <div class="w-10"></div> <!-- Spacer -->
             </header>
 
@@ -261,12 +261,12 @@
 
             <footer class="bebell-footer p-4 max-w-md mx-auto flex-shrink-0">
                 <p class="m-0">
-                    Desarrollado con <span class="heart">💖</span> por&nbsp;
+                    <span data-lang-key="developedBy">Desarrollado con</span> <span class="heart">💖</span> por&nbsp;
                     <a href="https://bebelldigitalsolutions.com" class="bebell-link font-medium text-primary" target="_blank" rel="noopener">
                         Bebell Digital Solutions
                     </a>.
                     <br>
-                    Copyright © 2024 • Todos los derechos reservados.
+                    Copyright © 2024 • <span data-lang-key="allRightsReserved">Todos los derechos reservados.</span>
                 </p>
             </footer>
         </main>
@@ -287,38 +287,184 @@
     document.addEventListener('DOMContentLoaded', () => {
 
         // --- GLOBAL STATE & CONSTANTS ---
-        const UserStatus = {
-            WAITING: 'Esperando Aprobación',
-            PUBLISHED: 'Publicado',
-            WHITE_LABEL: 'Marca Blanca',
-            AGENCY: 'Agencia',
-            BLOCKED: 'Bloqueado',
-        };
         const pageContainer = document.getElementById('page-container');
         const modalContainer = document.getElementById('modal-container');
         const sidebar = document.getElementById('sidebar');
         let chartInstances = {};
         
+        const translations = {
+            es: {
+                adminPanel: "Panel de Administrador",
+                dashboard: "Tablero",
+                userAccounts: "Cuentas de Usuario",
+                whatsappTemplates: "Plantillas de WhatsApp",
+                mainDirectory: "Directorio Principal",
+                settings: "Configuración",
+                whatsappLinks: "Enlaces de WhatsApp",
+                spreadsheetId: "Spreadsheet ID",
+                emailSignature: "Firma de Correo",
+                addNewResource: "Añadir Nuevo Recurso",
+                toggleTheme: "Cambiar Tema",
+                translatePanel: "Traducir Panel",
+                developedBy: "Desarrollado con",
+                allRightsReserved: "Todos los derechos reservados.",
+                hello: "¡Hola",
+                appSummary: "Aquí tienes un resumen de tu aplicación.",
+                totalUsers: "Usuarios",
+                published: "Publicado",
+                waitingApproval: "En Espera",
+                blocked: "Bloqueado",
+                userStatusBreakdown: "Desglose de Estado de Usuario",
+                profileCompletion: "Completitud del Perfil",
+                userRegistrationsByMonth: "Registros de Usuarios por Mes",
+                searchUsers: "Buscar usuarios...",
+                createNewUser: "Crear Nuevo Usuario",
+                whatsappMessageTemplates: "Plantillas de Mensajes de WhatsApp",
+                createNewTemplate: "Crear Nueva Plantilla",
+                templateName: "Nombre de la Plantilla",
+                templateNamePlaceholder: "ej., Bienvenida a Bordo",
+                messageContent: "Contenido del Mensaje",
+                messageContentPlaceholder: "¡Hola {{Username}}! Bienvenido/a a {{BrandName}}.",
+                availablePlaceholders: "Marcadores de posición disponibles: {{Username}}, {{BrandName}}, {{UserID}}, {{Email}}, {{DateRegistered}}, {{Status}}",
+                saveTemplate: "Guardar Plantilla",
+                yourTemplates: "Tus Plantillas",
+                noTemplatesSaved: "No tienes plantillas guardadas.",
+                settingsAndIntegrations: "Configuración e Integraciones",
+                userDatabase: "Base de Datos de Usuarios (Google Sheets)",
+                userDatabaseDesc: "Conecta una Hoja de Google para sincronizar automáticamente los datos de los usuarios, incluidas las actualizaciones de estado y la creación de nuevos usuarios.",
+                setupInstructions: "Haz clic para ver las instrucciones de configuración y el código actualizado",
+                step1: "Abre tu Hoja de Google, luego ve a <strong>Extensiones &gt; Apps Script</strong>.",
+                step2: "Copia el código a continuación y pégalo en el archivo <code>Code.gs</code>, reemplazando cualquier contenido existente.",
+                step3: "Haz clic en <strong>Implementar &gt; Nueva implementación</strong>. Selecciona el tipo <strong>Aplicación web</strong>.",
+                step4: "En la configuración, establece <strong>Ejecutar como</strong> en \"Yo\" y <strong>Quién tiene acceso</strong> en \"Cualquiera\". Haz clic en <strong>Implementar</strong>.",
+                step5: "Autoriza los permisos del script cuando se te solicite.",
+                step6: "Copia la <strong>URL de la aplicación web</strong> proporcionada y pégala en el campo de abajo.",
+                appsScriptURL: "URL de Google Apps Script",
+                appsScriptURLPlaceholder: "https://script.google.com/macros/s/...",
+                mediaRendering: "Renderizado de Archivos Multimedia (ImageKit.io)",
+                mediaRenderingDesc: "Para renderizar automáticamente imágenes de perfil y logos desde URLs, puedes usar ImageKit.io para optimización. Esto es opcional. Obtén tu clave de <a href='https://imagekit.io/' target='_blank' class='text-[var(--primary)] hover:underline'>ImageKit.io</a>.",
+                imagekitKey: "Clave Pública de API de ImageKit",
+                imagekitKeyPlaceholder: "public_xxxxxxxxxxxxxxxxxxxx",
+                saveAndSync: "Guardar y Sincronizar",
+                urls: {
+                    whatsappGenerator: "https://bebell-digital-solutions.github.io/easylistings-agency/spanish/whatsapp-link-generator",
+                    spreadsheetId: "https://bebell-digital-solutions.github.io/easylistings-agency/spanish/spreadsheet-id",
+                    emailSignature: "https://bebell-digital-solutions.github.io/easylistings-agency/spanish/easy-signature",
+                    mainDirectory: "https://bebell-digital-solutions.github.io/easylistings-agency"
+                },
+                titles: {
+                    whatsappGenerator: "Generador de Enlaces de WhatsApp",
+                    spreadsheetId: "Buscador de ID de Hoja de Cálculo",
+                    emailSignature: "Generador de Firmas de Correo",
+                    mainDirectory: "Directorio Easy Listings"
+                }
+            },
+            en: {
+                adminPanel: "Admin Panel",
+                dashboard: "Dashboard",
+                userAccounts: "User Accounts",
+                whatsappTemplates: "WhatsApp Templates",
+                mainDirectory: "Main Directory",
+                settings: "Settings",
+                whatsappLinks: "WhatsApp Links",
+                spreadsheetId: "Spreadsheet ID",
+                emailSignature: "Email Signature",
+                addNewResource: "Add New Resource",
+                toggleTheme: "Toggle Theme",
+                translatePanel: "Translate Panel",
+                developedBy: "Developed with",
+                allRightsReserved: "All rights reserved.",
+                hello: "Hello",
+                appSummary: "Here's a summary of your application.",
+                totalUsers: "Total Users",
+                published: "Published",
+                waitingApproval: "On Hold",
+                blocked: "Blocked",
+                userStatusBreakdown: "User Status Breakdown",
+                profileCompletion: "Profile Completion",
+                userRegistrationsByMonth: "User Registrations by Month",
+                searchUsers: "Search users...",
+                createNewUser: "Create New User",
+                whatsappMessageTemplates: "WhatsApp Message Templates",
+                createNewTemplate: "Create New Template",
+                templateName: "Template Name",
+                templateNamePlaceholder: "e.g., Onboarding Welcome",
+                messageContent: "Message Content",
+                messageContentPlaceholder: "Hello {{Username}}! Welcome to {{BrandName}}.",
+                availablePlaceholders: "Available placeholders: {{Username}}, {{BrandName}}, {{UserID}}, {{Email}}, {{DateRegistered}}, {{Status}}",
+                saveTemplate: "Save Template",
+                yourTemplates: "Your Templates",
+                noTemplatesSaved: "You have no saved templates.",
+                settingsAndIntegrations: "Settings & Integrations",
+                userDatabase: "User Database (Google Sheets)",
+                userDatabaseDesc: "Connect a Google Sheet to automatically sync user data, including status updates and new user creation.",
+                setupInstructions: "Click for setup instructions and updated code",
+                step1: "Open your Google Sheet, then go to <strong>Extensions &gt; Apps Script</strong>.",
+                step2: "Copy the code below and paste it into the <code>Code.gs</code> file, replacing any existing content.",
+                step3: "Click <strong>Deploy &gt; New deployment</strong>. Select the type <strong>Web app</strong>.",
+                step4: "In the configuration, set <strong>Execute as</strong> to \"Me\" and <strong>Who has access</strong> to \"Anyone\". Click <strong>Deploy</strong>.",
+                step5: "Authorize the script permissions when prompted.",
+                step6: "Copy the provided <strong>Web app URL</strong> and paste it into the field below.",
+                appsScriptURL: "Google Apps Script URL",
+                appsScriptURLPlaceholder: "https://script.google.com/macros/s/...",
+                mediaRendering: "Media Rendering (ImageKit.io)",
+                mediaRenderingDesc: "To automatically render profile pictures and logos from URLs, you can use ImageKit.io for optimization. This is optional. Get your key from <a href='https://imagekit.io/' target='_blank' class='text-[var(--primary)] hover:underline'>ImageKit.io</a>.",
+                imagekitKey: "ImageKit Public API Key",
+                imagekitKeyPlaceholder: "public_xxxxxxxxxxxxxxxxxxxx",
+                saveAndSync: "Save & Sync",
+                urls: {
+                    whatsappGenerator: "https://bebell-digital-solutions.github.io/easylistings-agency/english/whatsapp-link-generator",
+                    spreadsheetId: "https://bebell-digital-solutions.github.io/easylistings-agency/english/spreadsheet-id",
+                    emailSignature: "https://bebell-digital-solutions.github.io/easylistings-agency/english/easy-signature",
+                    mainDirectory: "https://bebell-digital-solutions.github.io/easylistings-agency"
+                },
+                titles: {
+                    whatsappGenerator: "WhatsApp Link Generator",
+                    spreadsheetId: "Spreadsheet ID Finder",
+                    emailSignature: "Email Signature Generator",
+                    mainDirectory: "Easy Listings Directory"
+                }
+            }
+        };
+
         let state = {
             currentPage: 'dashboard',
             users: [],
             templates: [],
             settings: { scriptUrl: '', imagekitKey: '' },
             theme: 'light',
+            language: 'es',
             view: 'list',
             searchTerm: '',
-            admin: { name: 'Administrador', avatar: 'https://bucket.mlcdn.com/a/3336/3336910/images/720acb42aae5c4c7657fe94291a91807c55c356a.png' },
+            admin: { name: 'Admin', avatar: 'https://bucket.mlcdn.com/a/3336/3336910/images/720acb42aae5c4c7657fe94291a91807c55c356a.png' },
             isDataLive: false,
             customNavLinks: [],
         };
 
+        const UserStatus = {
+            es: {
+                WAITING: 'En Espera',
+                PUBLISHED: 'Publicado',
+                WHITE_LABEL: 'Marca Blanca',
+                AGENCY: 'Agencia',
+                BLOCKED: 'Bloqueado',
+            },
+            en: {
+                WAITING: 'On Hold',
+                PUBLISHED: 'Published',
+                WHITE_LABEL: 'White Label',
+                AGENCY: 'Agency',
+                BLOCKED: 'Blocked',
+            }
+        };
+
         // --- MOCK DATA (Fallback) ---
         const mockUsers = [
-            { UserID: "USR001", BrandName: "Prestige Homes", Username: "CarlaM", Email: "carla.m@prestige.com", ProfilePicURL: "https://i.pravatar.cc/150?u=USR001", LogoURL: "https://bucket.mlcdn.com/a/3336/3336910/images/fa62e06dd2b6ed2d1d9e77e5dd944bef2904d5d1.png", PrimaryColor: "#004AAD", TopCTAText: "View Listings", TopCTALink: "https://example.com/listings", VideoScriptURL: "", Status: UserStatus.PUBLISHED, SheetID: "sheet_01", ShareableURL: "https://easylistings.website/carlam", WhatsAppURL: "18091234567", InstagramURL: "https://instagram.com/prestigehomes", FacebookURL: "https://facebook.com/prestigehomes", YouTubeURL: "", LinkedInURL: "https://linkedin.com/company/prestige", XURL: "https://x.com/prestige", TelegramURL: "", WebsiteURL: "https://prestige.com", DateRegistered: "2023-08-15", DateApproval: "2023-08-16" },
-            { UserID: "USR002", BrandName: "Urban Living", Username: "DavidP", Email: "david.p@urban.io", ProfilePicURL: "https://i.pravatar.cc/150?u=USR002", LogoURL: "", PrimaryColor: "#34D399", TopCTAText: "Book a Tour", TopCTALink: "https://urban.io/tour", VideoScriptURL: "", Status: UserStatus.WAITING, SheetID: "sheet_02", ShareableURL: "https://easylistings.website/davidp", WhatsAppURL: "18299876543", InstagramURL: "https://instagram.com/urbanliving", FacebookURL: "", YouTubeURL: "", LinkedInURL: "", XURL: "", TelegramURL: "", WebsiteURL: "https://urban.io", DateRegistered: "2023-08-20", DateApproval: "" },
-            { UserID: "USR003", BrandName: "Coastal Properties", Username: "MariaS", Email: "maria.s@coastal.net", ProfilePicURL: "https://i.pravatar.cc/150?u=USR003", LogoURL: "", PrimaryColor: "#F59E0B", TopCTAText: "See Our Portfolio", TopCTALink: "https://coastal.net/portfolio", VideoScriptURL: "", Status: UserStatus.BLOCKED, SheetID: "sheet_03", ShareableURL: "https://easylistings.website/marias", WhatsAppURL: "18493332222", InstagramURL: "", FacebookURL: "", YouTubeURL: "https://youtube.com/coastalprop", LinkedInURL: "", XURL: "", TelegramURL: "", WebsiteURL: "https://coastal.net", DateRegistered: "2023-07-01", DateApproval: "2023-07-02" },
-            { UserID: "USR004", BrandName: "Agency One", Username: "JohnA", Email: "john.a@agency.one", ProfilePicURL: "https://i.pravatar.cc/150?u=USR004", LogoURL: "", PrimaryColor: "#6366F1", TopCTAText: "Contact Us", TopCTALink: "https://agency.one/contact", VideoScriptURL: "", Status: UserStatus.AGENCY, SheetID: "sheet_04", ShareableURL: "https://easylistings.website/johna", WhatsAppURL: "18095551111", InstagramURL: "", FacebookURL: "", YouTubeURL: "", LinkedInURL: "", XURL: "", TelegramURL: "", WebsiteURL: "https://agency.one", DateRegistered: "2023-06-15", DateApproval: "2023-06-16" },
-            { UserID: "USR005", BrandName: "White Label Pro", Username: "SarahW", Email: "sarah.w@whitelabel.pro", ProfilePicURL: "https://i.pravatar.cc/150?u=USR005", LogoURL: "", PrimaryColor: "#3B82F6", TopCTAText: "Get Started", TopCTALink: "https://whitelabel.pro/start", VideoScriptURL: "", Status: UserStatus.WHITE_LABEL, SheetID: "sheet_05", ShareableURL: "https://easylistings.website/sarahw", WhatsAppURL: "18095552222", InstagramURL: "", FacebookURL: "", YouTubeURL: "", LinkedInURL: "", XURL: "", TelegramURL: "", WebsiteURL: "https://whitelabel.pro", DateRegistered: "2023-05-20", DateApproval: "2023-05-21" },
+            { UserID: "USR001", BrandName: "Prestige Homes", Username: "CarlaM", Email: "carla.m@prestige.com", ProfilePicURL: "https://i.pravatar.cc/150?u=USR001", LogoURL: "https://bucket.mlcdn.com/a/3336/3336910/images/fa62e06dd2b6ed2d1d9e77e5dd944bef2904d5d1.png", PrimaryColor: "#004AAD", TopCTAText: "View Listings", TopCTALink: "https://example.com/listings", VideoScriptURL: "", Status: UserStatus.es.PUBLISHED, SheetID: "sheet_01", ShareableURL: "https://easylistings.website/carlam", WhatsAppURL: "18091234567", InstagramURL: "https://instagram.com/prestigehomes", FacebookURL: "https://facebook.com/prestigehomes", YouTubeURL: "", LinkedInURL: "https://linkedin.com/company/prestige", XURL: "https://x.com/prestige", TelegramURL: "", WebsiteURL: "https://prestige.com", DateRegistered: "2023-08-15", DateApproval: "2023-08-16" },
+            { UserID: "USR002", BrandName: "Urban Living", Username: "DavidP", Email: "david.p@urban.io", ProfilePicURL: "https://i.pravatar.cc/150?u=USR002", LogoURL: "", PrimaryColor: "#34D399", TopCTAText: "Book a Tour", TopCTALink: "https://urban.io/tour", VideoScriptURL: "", Status: UserStatus.es.WAITING, SheetID: "sheet_02", ShareableURL: "https://easylistings.website/davidp", WhatsAppURL: "18299876543", InstagramURL: "https://instagram.com/urbanliving", FacebookURL: "", YouTubeURL: "", LinkedInURL: "", XURL: "", TelegramURL: "", WebsiteURL: "https://urban.io", DateRegistered: "2023-08-20", DateApproval: "" },
+            { UserID: "USR003", BrandName: "Coastal Properties", Username: "MariaS", Email: "maria.s@coastal.net", ProfilePicURL: "https://i.pravatar.cc/150?u=USR003", LogoURL: "", PrimaryColor: "#F59E0B", TopCTAText: "See Our Portfolio", TopCTALink: "https://coastal.net/portfolio", VideoScriptURL: "", Status: UserStatus.es.BLOCKED, SheetID: "sheet_03", ShareableURL: "https://easylistings.website/marias", WhatsAppURL: "18493332222", InstagramURL: "", FacebookURL: "", YouTubeURL: "https://youtube.com/coastalprop", LinkedInURL: "", XURL: "", TelegramURL: "", WebsiteURL: "https://coastal.net", DateRegistered: "2023-07-01", DateApproval: "2023-07-02" },
+            { UserID: "USR004", BrandName: "Agency One", Username: "JohnA", Email: "john.a@agency.one", ProfilePicURL: "https://i.pravatar.cc/150?u=USR004", LogoURL: "", PrimaryColor: "#6366F1", TopCTAText: "Contact Us", TopCTALink: "https://agency.one/contact", VideoScriptURL: "", Status: UserStatus.es.AGENCY, SheetID: "sheet_04", ShareableURL: "https://easylistings.website/johna", WhatsAppURL: "18095551111", InstagramURL: "", FacebookURL: "", YouTubeURL: "", LinkedInURL: "", XURL: "", TelegramURL: "", WebsiteURL: "https://agency.one", DateRegistered: "2023-06-15", DateApproval: "2023-06-16" },
+            { UserID: "USR005", BrandName: "White Label Pro", Username: "SarahW", Email: "sarah.w@whitelabel.pro", ProfilePicURL: "https://i.pravatar.cc/150?u=USR005", LogoURL: "", PrimaryColor: "#3B82F6", TopCTAText: "Get Started", TopCTALink: "https://whitelabel.pro/start", VideoScriptURL: "", Status: UserStatus.es.WHITE_LABEL, SheetID: "sheet_05", ShareableURL: "https://easylistings.website/sarahw", WhatsAppURL: "18095552222", InstagramURL: "", FacebookURL: "", YouTubeURL: "", LinkedInURL: "", XURL: "", TelegramURL: "", WebsiteURL: "https://whitelabel.pro", DateRegistered: "2023-05-20", DateApproval: "2023-05-21" },
         ];
 
         // --- DATA FETCHING & UPDATING ---
@@ -444,8 +590,9 @@
 
         const formatDate = (dateString) => {
             if (!dateString) return 'N/A';
-            try { return new Date(dateString).toLocaleDateString('es-ES', { year: 'numeric', month: 'short', day: 'numeric' }); } 
-            catch (e) { return 'Fecha Inválida'; }
+            const lang = state.language === 'es' ? 'es-ES' : 'en-US';
+            try { return new Date(dateString).toLocaleDateString(lang, { year: 'numeric', month: 'short', day: 'numeric' }); } 
+            catch (e) { return 'Invalid Date'; }
         };
         
         const renderImage = (url, transformations = 'tr:w-200,h-200,fo-auto') => {
@@ -458,13 +605,14 @@
 
         const getStatusBadge = (status) => {
             const baseClasses = 'text-xs font-semibold px-2.5 py-0.5 rounded-full whitespace-nowrap';
+            const currentStatus = UserStatus[state.language];
             switch (status) {
-                case UserStatus.PUBLISHED: return `<span class="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300 ${baseClasses}">Publicado</span>`;
-                case UserStatus.WAITING: return `<span class="bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300 ${baseClasses}">Esperando</span>`;
-                case UserStatus.WHITE_LABEL: return `<span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300 ${baseClasses}">Marca Blanca</span>`;
-                case UserStatus.AGENCY: return `<span class="bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-300 ${baseClasses}">Agencia</span>`;
-                case UserStatus.BLOCKED: return `<span class="bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-300 ${baseClasses}">Bloqueado</span>`;
-                default: return `<span class="bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300 ${baseClasses}">Desconocido</span>`;
+                case currentStatus.PUBLISHED: return `<span class="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300 ${baseClasses}">${currentStatus.PUBLISHED}</span>`;
+                case currentStatus.WAITING: return `<span class="bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300 ${baseClasses}">${currentStatus.WAITING}</span>`;
+                case currentStatus.WHITE_LABEL: return `<span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300 ${baseClasses}">${currentStatus.WHITE_LABEL}</span>`;
+                case currentStatus.AGENCY: return `<span class="bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-300 ${baseClasses}">${currentStatus.AGENCY}</span>`;
+                case currentStatus.BLOCKED: return `<span class="bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-300 ${baseClasses}">${currentStatus.BLOCKED}</span>`;
+                default: return `<span class="bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300 ${baseClasses}">Unknown</span>`;
             }
         };
 
@@ -487,41 +635,42 @@
         };
         
         const renderDashboardPage = () => {
+            const t = translations[state.language];
             pageContainer.innerHTML = `
                 <div class="py-6 md:py-8">
-                    <h1 class="text-3xl font-bold">¡Hola, ${state.admin.name}!</h1>
-                    <p class="text-[var(--text-secondary)] mb-6">Aquí tienes un resumen de tu aplicación.</p>
+                    <h1 class="text-3xl font-bold">${t.hello}, ${state.admin.name}!</h1>
+                    <p class="text-[var(--text-secondary)] mb-6">${t.appSummary}</p>
                     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
                         <div class="bg-[var(--bg-secondary)] p-6 rounded-lg shadow-[var(--shadow)] border border-[var(--border-color)]">
-                            <h3 class="text-lg font-semibold text-[var(--text-secondary)]">Usuarios</h3>
+                            <h3 class="text-lg font-semibold text-[var(--text-secondary)]">${t.totalUsers}</h3>
                             <p class="text-4xl font-bold">${state.users.length}</p>
                         </div>
                         <div class="bg-[var(--bg-secondary)] p-6 rounded-lg shadow-[var(--shadow)] border border-[var(--border-color)]">
-                            <h3 class="text-lg font-semibold text-[var(--text-secondary)]">Publicados</h3>
-                            <p class="text-4xl font-bold">${state.users.filter(u => u.Status === UserStatus.PUBLISHED).length}</p>
+                            <h3 class="text-lg font-semibold text-[var(--text-secondary)]">${t.published}</h3>
+                            <p class="text-4xl font-bold">${state.users.filter(u => u.Status === UserStatus[state.language].PUBLISHED).length}</p>
                         </div>
                         <div class="bg-[var(--bg-secondary)] p-6 rounded-lg shadow-[var(--shadow)] border border-[var(--border-color)]">
-                            <h3 class="text-lg font-semibold text-[var(--text-secondary)]">En Espera</h3>
-                            <p class="text-4xl font-bold">${state.users.filter(u => u.Status === UserStatus.WAITING).length}</p>
+                            <h3 class="text-lg font-semibold text-[var(--text-secondary)]">${t.waitingApproval}</h3>
+                            <p class="text-4xl font-bold">${state.users.filter(u => u.Status === UserStatus[state.language].WAITING).length}</p>
                         </div>
                         <div class="bg-[var(--bg-secondary)] p-6 rounded-lg shadow-[var(--shadow)] border border-[var(--border-color)]">
-                            <h3 class="text-lg font-semibold text-[var(--text-secondary)]">Bloqueados</h3>
-                            <p class="text-4xl font-bold">${state.users.filter(u => u.Status === UserStatus.BLOCKED).length}</p>
+                            <h3 class="text-lg font-semibold text-[var(--text-secondary)]">${t.blocked}</h3>
+                            <p class="text-4xl font-bold">${state.users.filter(u => u.Status === UserStatus[state.language].BLOCKED).length}</p>
                         </div>
                     </div>
                     <div class="mb-6 bg-[var(--bg-secondary)] p-6 rounded-lg shadow-[var(--shadow)] border border-[var(--border-color)]">
-                        <h3 class="text-xl font-bold mb-4 text-center">Registros de Usuarios por Mes</h3>
+                        <h3 class="text-xl font-bold mb-4 text-center">${t.userRegistrationsByMonth}</h3>
                         <div class="relative h-64">
                              <canvas id="userRegistrationChart"></canvas>
                         </div>
                     </div>
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                         <div class="bg-[var(--bg-secondary)] p-6 rounded-lg shadow-[var(--shadow)] border border-[var(--border-color)]">
-                            <h3 class="text-xl font-bold mb-4 text-center">Desglose de Estado de Usuario</h3>
+                            <h3 class="text-xl font-bold mb-4 text-center">${t.userStatusBreakdown}</h3>
                             <canvas id="userStatusChart"></canvas>
                         </div>
                         <div class="bg-[var(--bg-secondary)] p-6 rounded-lg shadow-[var(--shadow)] border border-[var(--border-color)]">
-                            <h3 class="text-xl font-bold mb-4 text-center">Completitud del Perfil</h3>
+                            <h3 class="text-xl font-bold mb-4 text-center">${t.profileCompletion}</h3>
                             <canvas id="profileCompletionChart"></canvas>
                         </div>
                     </div>
@@ -540,6 +689,7 @@
             
             const isDarkMode = document.documentElement.classList.contains('dark');
             const textColor = isDarkMode ? '#f7fafc' : '#2d3748';
+            const currentStatus = UserStatus[state.language];
 
             // User Status Doughnut Chart
             const statusCounts = state.users.reduce((acc, user) => { acc[user.Status] = (acc[user.Status] || 0) + 1; return acc; }, {});
@@ -578,7 +728,9 @@
             });
 
             // User Registration Bar Chart
-            const monthLabels = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
+            const monthLabels = state.language === 'es' 
+                ? ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic']
+                : ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
             const monthlyData = Array(12).fill(0);
 
             state.users.forEach(user => {
@@ -600,7 +752,7 @@
                 data: {
                     labels: monthLabels,
                     datasets: [{
-                        label: 'Nuevos Usuarios',
+                        label: translations[state.language].newUsers || 'New Users',
                         data: monthlyData,
                         backgroundColor: 'rgba(223, 23, 131, 0.7)',
                         borderColor: 'rgb(223, 23, 131)',
@@ -626,23 +778,24 @@
 
         const renderUsersPage = () => {
             destroyCharts();
+            const t = translations[state.language];
             pageContainer.innerHTML = `
                 <div class="py-6 md:py-8">
                     <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-6">
-                        <h2 class="text-3xl font-bold">Cuentas de Usuario</h2>
+                        <h2 class="text-3xl font-bold">${t.userAccounts}</h2>
                         <div class="relative w-full md:w-auto md:max-w-xs">
                             <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                                 <i data-lucide="search" class="w-5 h-5 text-[var(--text-secondary)]"></i>
                             </div>
-                            <input type="text" id="search-input" value="${state.searchTerm}" placeholder="Buscar usuarios..." class="w-full pl-10 pr-4 py-2 border rounded-md bg-[var(--bg-secondary)] border-[var(--border-color)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)]" />
+                            <input type="text" id="search-input" value="${state.searchTerm}" placeholder="${t.searchUsers}" class="w-full pl-10 pr-4 py-2 border rounded-md bg-[var(--bg-secondary)] border-[var(--border-color)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)]" />
                         </div>
                     </div>
                     <div class="bg-[var(--bg-secondary)] p-4 rounded-lg shadow-[var(--shadow)] border border-[var(--border-color)]">
                         <div class="flex items-center justify-between gap-2 mb-4">
-                            <button id="create-user-btn" class="flex items-center gap-2 px-4 py-2 text-white bg-[var(--primary)] rounded-md hover:opacity-90"><i data-lucide="user-plus" class="w-4 h-4"></i> Crear Nuevo Usuario</button>
+                            <button id="create-user-btn" class="flex items-center gap-2 px-4 py-2 text-white bg-[var(--primary)] rounded-md hover:opacity-90"><i data-lucide="user-plus" class="w-4 h-4"></i> ${t.createNewUser}</button>
                             <div class="flex items-center gap-2">
-                                <button id="view-grid-btn" class="p-2 rounded-md ${state.view === 'grid' ? 'bg-[var(--primary-light)] text-[var(--primary)]' : ''}" title="Vista de Cuadrícula"><i data-lucide="layout-grid" class="w-5 h-5"></i></button>
-                                <button id="view-list-btn" class="p-2 rounded-md ${state.view === 'list' ? 'bg-[var(--primary-light)] text-[var(--primary)]' : ''}" title="Vista de Lista"><i data-lucide="list" class="w-5 h-5"></i></button>
+                                <button id="view-grid-btn" class="p-2 rounded-md ${state.view === 'grid' ? 'bg-[var(--primary-light)] text-[var(--primary)]' : ''}" title="Grid View"><i data-lucide="layout-grid" class="w-5 h-5"></i></button>
+                                <button id="view-list-btn" class="p-2 rounded-md ${state.view === 'list' ? 'bg-[var(--primary-light)] text-[var(--primary)]' : ''}" title="List View"><i data-lucide="list" class="w-5 h-5"></i></button>
                                 <button id="download-csv-btn" class="flex items-center gap-2 px-4 py-2 rounded-md border border-[var(--border-color)] hover:bg-[var(--primary-light)]"><i data-lucide="file-down" class="w-4 h-4"></i> CSV</button>
                                 <button id="download-pdf-btn" class="flex items-center gap-2 px-4 py-2 rounded-md border border-[var(--border-color)] hover:bg-[var(--primary-light)]"><i data-lucide="file-down" class="w-4 h-4"></i> PDF</button>
                             </div>
@@ -707,20 +860,21 @@
 
         const renderTemplatesPage = () => {
             destroyCharts();
+            const t = translations[state.language];
             pageContainer.innerHTML = `
                 <div class="py-6 md:py-8">
-                    <h2 class="text-3xl font-bold mb-6">Plantillas de Mensajes de WhatsApp</h2>
+                    <h2 class="text-3xl font-bold mb-6">${t.whatsappMessageTemplates}</h2>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <div class="bg-[var(--bg-secondary)] p-6 rounded-lg shadow-[var(--shadow)] border border-[var(--border-color)]">
-                            <h3 class="text-xl font-bold mb-4">Crear Nueva Plantilla</h3>
+                            <h3 class="text-xl font-bold mb-4">${t.createNewTemplate}</h3>
                             <form id="template-form" class="space-y-4">
-                                <div><label for="template-name" class="block mb-1 text-sm font-medium">Nombre de la Plantilla</label><input type="text" id="template-name" placeholder="ej., Bienvenida a Bordo" required class="w-full px-3 py-2 border rounded-md bg-[var(--bg-primary)] border-[var(--border-color)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)]" /></div>
-                                <div><label for="template-message" class="block mb-1 text-sm font-medium">Contenido del Mensaje</label><textarea id="template-message" rows="5" placeholder="¡Hola {{Username}}! Bienvenido/a a {{BrandName}}." required class="w-full px-3 py-2 border rounded-md bg-[var(--bg-primary)] border-[var(--border-color)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)]"></textarea>
-                                <p class="text-xs text-[var(--text-secondary)] mt-1">Marcadores de posición disponibles: {{Username}}, {{BrandName}}, {{UserID}}, {{Email}}, {{DateRegistered}}, {{Status}}</p></div>
-                                <button type="submit" class="w-full px-4 py-2 text-white bg-[var(--primary)] rounded-md hover:opacity-90">Guardar Plantilla</button>
+                                <div><label for="template-name" class="block mb-1 text-sm font-medium">${t.templateName}</label><input type="text" id="template-name" placeholder="${t.templateNamePlaceholder}" required class="w-full px-3 py-2 border rounded-md bg-[var(--bg-primary)] border-[var(--border-color)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)]" /></div>
+                                <div><label for="template-message" class="block mb-1 text-sm font-medium">${t.messageContent}</label><textarea id="template-message" rows="5" placeholder="${t.messageContentPlaceholder}" required class="w-full px-3 py-2 border rounded-md bg-[var(--bg-primary)] border-[var(--border-color)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)]"></textarea>
+                                <p class="text-xs text-[var(--text-secondary)] mt-1">${t.availablePlaceholders}</p></div>
+                                <button type="submit" class="w-full px-4 py-2 text-white bg-[var(--primary)] rounded-md hover:opacity-90">${t.saveTemplate}</button>
                             </form>
                         </div>
-                        <div class="bg-[var(--bg-secondary)] p-6 rounded-lg shadow-[var(--shadow)] border border-[var(--border-color)]"><h3 class="text-xl font-bold mb-4">Tus Plantillas</h3><div id="template-list-container" class="space-y-3 max-h-96 overflow-y-auto"></div></div>
+                        <div class="bg-[var(--bg-secondary)] p-6 rounded-lg shadow-[var(--shadow)] border border-[var(--border-color)]"><h3 class="text-xl font-bold mb-4">${t.yourTemplates}</h3><div id="template-list-container" class="space-y-3 max-h-96 overflow-y-auto"></div></div>
                     </div>
                 </div>`;
             renderTemplateList();
@@ -730,7 +884,7 @@
         const renderTemplateList = () => {
             const container = document.getElementById('template-list-container');
             if (state.templates.length === 0) {
-                container.innerHTML = `<p class="text-sm text-[var(--text-secondary)]">No tienes plantillas guardadas.</p>`; return;
+                container.innerHTML = `<p class="text-sm text-[var(--text-secondary)]">${translations[state.language].noTemplatesSaved}</p>`; return;
             }
             container.innerHTML = state.templates.map(template => `
                 <div class="p-3 border rounded-md border-[var(--border-color)]"><div class="flex justify-between items-center"><p class="font-semibold">${template.name}</p><button class="delete-template-btn p-1 text-red-500 hover:text-red-700" data-id="${template.id}" title="Eliminar Plantilla"><i data-lucide="trash-2" class="w-4 h-4"></i></button></div><p class="text-sm text-[var(--text-secondary)] mt-1 whitespace-pre-wrap">${template.message}</p></div>`).join('');
@@ -746,23 +900,24 @@
         
         const renderSettingsPage = () => {
             destroyCharts();
+            const t = translations[state.language];
             pageContainer.innerHTML = `
                 <div class="py-6 md:py-8">
-                    <h2 class="text-3xl font-bold mb-6">Configuración e Integraciones</h2>
+                    <h2 class="text-3xl font-bold mb-6">${t.settingsAndIntegrations}</h2>
                     <div class="max-w-3xl mx-auto space-y-8">
                         <div class="bg-[var(--bg-secondary)] p-6 rounded-lg shadow-[var(--shadow)] border border-[var(--border-color)]">
-                            <h3 class="text-xl font-bold mb-2">1. Base de Datos de Usuarios (Google Sheets)</h3>
-                            <p class="text-sm text-[var(--text-secondary)] mb-4">Conecta una Hoja de Google para sincronizar automáticamente los datos de los usuarios, incluidas las actualizaciones de estado y la creación de nuevos usuarios.</p>
-                            <details class="mb-4"><summary class="cursor-pointer text-sm font-semibold text-[var(--primary)]">Haz clic para ver las instrucciones de configuración y el código actualizado</summary>
+                            <h3 class="text-xl font-bold mb-2">${t.userDatabase}</h3>
+                            <p class="text-sm text-[var(--text-secondary)] mb-4">${t.userDatabaseDesc}</p>
+                            <details class="mb-4"><summary class="cursor-pointer text-sm font-semibold text-[var(--primary)]">${t.setupInstructions}</summary>
                                 <ol class="list-decimal list-inside space-y-2 text-sm mt-2">
-                                    <li>Abre tu Hoja de Google, luego ve a <strong>Extensiones &gt; Apps Script</strong>.</li>
-                                    <li>Copia el código a continuación y pégalo en el archivo <code>Code.gs</code>, reemplazando cualquier contenido existente.</li>
-                                    <li>Haz clic en <strong>Implementar &gt; Nueva implementación</strong>. Selecciona el tipo <strong>Aplicación web</strong>.</li>
-                                    <li>En la configuración, establece <strong>Ejecutar como</strong> en "Yo" y <strong>Quién tiene acceso</strong> en "Cualquiera". Haz clic en <strong>Implementar</strong>.</li>
-                                    <li>Autoriza los permisos del script cuando se te solicite.</li>
-                                    <li>Copia la <strong>URL de la aplicación web</strong> proporcionada y pégala en el campo de abajo.</li>
+                                    <li>${t.step1}</li>
+                                    <li>${t.step2}</li>
+                                    <li>${t.step3}</li>
+                                    <li>${t.step4}</li>
+                                    <li>${t.step5}</li>
+                                    <li>${t.step6}</li>
                                 </ol>
-                                <pre class="mt-2 p-3 bg-gray-100 dark:bg-gray-800 rounded-md text-xs overflow-x-auto"><code>const SHEET_NAME = "Sheet1"; // Cambia esto si tu hoja tiene un nombre diferente
+                                <pre class="mt-2 p-3 bg-gray-100 dark:bg-gray-800 rounded-md text-xs overflow-x-auto"><code>const SHEET_NAME = "Sheet1"; // Change this if your sheet has a different name
 
 function handleResponse(data) {
   return ContentService.createTextOutput(JSON.stringify(data))
@@ -849,14 +1004,14 @@ function doPost(e) {
 }
 </code></pre>
                             </details>
-                            <div><label for="scriptUrl" class="block mb-1 text-sm font-medium">URL de Google Apps Script</label><input type="url" id="scriptUrl" value="${state.settings.scriptUrl}" placeholder="https://script.google.com/macros/s/..." class="w-full px-3 py-2 border rounded-md bg-[var(--bg-primary)] border-[var(--border-color)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)]" /></div>
+                            <div><label for="scriptUrl" class="block mb-1 text-sm font-medium">${t.appsScriptURL}</label><input type="url" id="scriptUrl" value="${state.settings.scriptUrl}" placeholder="${t.appsScriptURLPlaceholder}" class="w-full px-3 py-2 border rounded-md bg-[var(--bg-primary)] border-[var(--border-color)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)]" /></div>
                         </div>
                         <div class="bg-[var(--bg-secondary)] p-6 rounded-lg shadow-[var(--shadow)] border border-[var(--border-color)]">
-                            <h3 class="text-xl font-bold mb-2">2. Renderizado de Archivos Multimedia (ImageKit.io)</h3>
-                            <p class="text-sm text-[var(--text-secondary)] mb-4">Para renderizar automáticamente imágenes de perfil y logos desde URLs, puedes usar ImageKit.io para optimización. Esto es opcional. Obtén tu clave de <a href="https://imagekit.io/" target="_blank" class="text-[var(--primary)] hover:underline">ImageKit.io</a>.</p>
-                            <div><label for="imagekitKey" class="block mb-1 text-sm font-medium">Clave Pública de API de ImageKit</label><input type="text" id="imagekitKey" value="${state.settings.imagekitKey}" placeholder="public_xxxxxxxxxxxxxxxxxxxx" class="w-full px-3 py-2 border rounded-md bg-[var(--bg-primary)] border-[var(--border-color)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)]" /></div>
+                            <h3 class="text-xl font-bold mb-2">${t.mediaRendering}</h3>
+                            <p class="text-sm text-[var(--text-secondary)] mb-4">${t.mediaRenderingDesc}</p>
+                            <div><label for="imagekitKey" class="block mb-1 text-sm font-medium">${t.imagekitKey}</label><input type="text" id="imagekitKey" value="${state.settings.imagekitKey}" placeholder="${t.imagekitKeyPlaceholder}" class="w-full px-3 py-2 border rounded-md bg-[var(--bg-primary)] border-[var(--border-color)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)]" /></div>
                         </div>
-                        <button id="save-settings-btn" class="w-full px-6 py-3 text-white bg-[var(--primary)] rounded-md hover:opacity-90 font-bold">Guardar y Sincronizar</button>
+                        <button id="save-settings-btn" class="w-full px-6 py-3 text-white bg-[var(--primary)] rounded-md hover:opacity-90 font-bold">${t.saveAndSync}</button>
                     </div>
                 </div>`;
             addSettingsPageEventListeners();
@@ -916,7 +1071,7 @@ function doPost(e) {
                                 <div class="border border-[var(--border-color)] rounded-lg p-4 md:col-span-4">
                                     <label for="status-update" class="text-sm font-medium mb-2 block">Actualizar Estado:</label>
                                     <select id="status-update" data-userid="${user.UserID}" class="w-full p-2 border rounded-md bg-[var(--bg-primary)] border-[var(--border-color)] focus:ring-2 focus:ring-[var(--primary)] focus:outline-none">
-                                        ${Object.values(UserStatus).map(s => `<option value="${s}" ${user.Status === s ? 'selected' : ''}>${s}</option>`).join('')}
+                                        ${Object.values(UserStatus[state.language]).map(s => `<option value="${s}" ${user.Status === s ? 'selected' : ''}>${s}</option>`).join('')}
                                     </select>
                                 </div>
                             </div>
@@ -1047,7 +1202,7 @@ function doPost(e) {
                             <div>
                                 <label for="new-user-status" class="block mb-1 text-sm font-medium">Estado Inicial</label>
                                 <select id="new-user-status" class="w-full p-2 border rounded-md bg-[var(--bg-primary)] border-[var(--border-color)]">
-                                    ${Object.values(UserStatus).map(s => `<option value="${s}" ${s === UserStatus.WAITING ? 'selected' : ''}>${s}</option>`).join('')}
+                                    ${Object.values(UserStatus[state.language]).map(s => `<option value="${s}" ${s === UserStatus[state.language].WAITING ? 'selected' : ''}>${s}</option>`).join('')}
                                 </select>
                             </div>
                             <button type="submit" class="w-full px-4 py-2 text-white bg-[var(--primary)] rounded-md hover:opacity-90">Crear Usuario</button>
@@ -1066,6 +1221,34 @@ function doPost(e) {
                 };
                 createNewUser(newUser);
             });
+        };
+
+        // --- TRANSLATION ---
+        const translateUI = () => {
+            document.documentElement.lang = state.language;
+            const t = translations[state.language];
+            
+            document.querySelectorAll('[data-lang-key]').forEach(el => {
+                const key = el.dataset.langKey;
+                if (t[key]) {
+                    el.textContent = t[key];
+                }
+            });
+
+            const tUrls = t.urls;
+            const tTitles = t.titles;
+
+            document.querySelector('a[data-page="whatsapp-generator"]').dataset.url = tUrls.whatsappGenerator;
+            document.querySelector('a[data-page="whatsapp-generator"]').dataset.title = tTitles.whatsappGenerator;
+
+            document.querySelector('a[data-page="spreadsheet-id"]').dataset.url = tUrls.spreadsheetId;
+            document.querySelector('a[data-page="spreadsheet-id"]').dataset.title = tTitles.spreadsheetId;
+
+            document.querySelector('a[data-page="email-signature"]').dataset.url = tUrls.emailSignature;
+            document.querySelector('a[data-page="email-signature"]').dataset.title = tTitles.emailSignature;
+            
+            document.querySelector('a[data-page="directorio"]').dataset.url = tUrls.mainDirectory;
+            document.querySelector('a[data-page="directorio"]').dataset.title = tTitles.mainDirectory;
         };
 
         // --- NAVIGATION & UI RENDERING ---
@@ -1109,8 +1292,6 @@ function doPost(e) {
 
         const renderCurrentPage = () => {
             pageContainer.className = 'w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex-grow';
-            const pageName = state.currentPage.charAt(0).toUpperCase() + state.currentPage.slice(1);
-            document.getElementById('mobile-page-title').textContent = pageName;
             
             switch(state.currentPage) {
                 case 'dashboard': renderDashboardPage(); break;
@@ -1184,6 +1365,11 @@ function doPost(e) {
             doc.save('usuarios.pdf');
         };
 
+
+
+
+
+
         // --- NOTIFICATIONS ---
         let toastTimeout;
         const showToast = (message, type = 'success') => {
@@ -1201,6 +1387,12 @@ function doPost(e) {
                 toast.classList.add('translate-y-20', 'opacity-0');
             }, 3000);
         };
+
+
+
+
+
+
 
 
         // --- EVENT LISTENERS ---
@@ -1243,13 +1435,21 @@ function doPost(e) {
             });
         };
 
+
+
+
+
+
+
+
         // --- INITIALIZATION ---
         const init = async () => {
             // Load state from local storage or set defaults
             state.theme = getFromStorage('theme', 'light');
+            state.language = getFromStorage('language', 'es');
             state.templates = getFromStorage('whatsappTemplates', [{ id: '1', name: "Bienvenida a Bordo", message: "¡Hola {{Username}}! Bienvenido/a a EasyListings." }]);
             state.settings = getFromStorage('appSettings', { scriptUrl: '', imagekitKey: '' });
-            state.admin = getFromStorage('adminProfile', { name: 'Administrador', avatar: 'https://bucket.mlcdn.com/a/3336/3336910/images/720acb42aae5c4c7657fe94291a91807c55c356a.png' });
+            state.admin = getFromStorage('adminProfile', { name: 'Admin', avatar: 'https://bucket.mlcdn.com/a/3336/3336910/images/720acb42aae5c4c7657fe94291a91807c55c356a.png' });
             state.customNavLinks = getFromStorage('customNavLinks', []);
             
             // Initial UI setup
@@ -1257,8 +1457,9 @@ function doPost(e) {
             applyTheme(state.theme);
             renderCustomNavLinks();
             lucide.createIcons();
-            handleNavigation('dashboard');
-            await fetchUsers();
+            
+            await fetchUsers(); 
+            translateUI();
 
             // Mobile nav listeners
             document.getElementById('sidebar-open-btn').addEventListener('click', openMobileSidebar);
@@ -1282,10 +1483,6 @@ function doPost(e) {
                 }
 
                 if (link) {
-                    if (link.dataset.page === 'translate') {
-                        return;
-                    }
-
                     e.preventDefault();
                     handleNavigation(link.dataset.page, link.dataset.url, link.dataset.title);
                     if (window.innerWidth <= 780) closeMobileSidebar();
@@ -1294,6 +1491,13 @@ function doPost(e) {
 
             document.getElementById('add-new-link-btn').addEventListener('click', openAddNewLinkModal);
             document.getElementById('theme-toggle').addEventListener('click', () => { state.theme = state.theme === 'light' ? 'dark' : 'light'; saveToStorage('theme', state.theme); applyTheme(state.theme); });
+            
+            document.getElementById('translate-btn').addEventListener('click', () => { 
+                state.language = state.language === 'es' ? 'en' : 'es';
+                saveToStorage('language', state.language);
+                handleNavigation('dashboard');
+                translateUI();
+            });
             document.getElementById('admin-profile-section').addEventListener('click', openAdminModal);
             document.getElementById('notification-btn').addEventListener('click', () => showToast('Esta es una notificación de prueba.'));
 
